@@ -1,0 +1,13 @@
+{
+  "name": "tsconfig-glob-with-gulp-example",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Stephen Lautier",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "tsconfig-glob": "^0.1.3"
+  },
+  "scripts": {
+    "postinstall": "gulp tsconfig-glob"
+  }
+}

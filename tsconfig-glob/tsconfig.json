@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5"
+  },
+  "filesGlob": [
+    "src/**/*{.ts, .d.ts}",
+    "!src/ignore-me.ts"
+  ],
+  "files": [
+    "src/core.ts",
+    "src/math.ts",
+    "src/text.ts"
+  ]
+}
